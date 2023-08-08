@@ -14,7 +14,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 
-@Entity
+@Entity //entity name
 @Table(name="student_address")
 public class Address {
 	
